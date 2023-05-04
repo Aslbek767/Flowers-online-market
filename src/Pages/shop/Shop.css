@@ -1,0 +1,1354 @@
+.main-shop .shopping-cart-list {
+  display: flex;
+  gap: 86px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main-shop .shopping-cart-list .res-shopping-shop-page {
+  display: none;
+}
+.main-shop .shopping-cart-list table {
+  width: 782px;
+  border-collapse: separate;
+}
+.main-shop .shopping-cart-list table .shopping-cart-header {
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+.main-shop .shopping-cart-list table .shopping-cart-header th {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+  padding-bottom: 11px;
+}
+.main-shop .shopping-cart-list table .shopping-cart {
+  background: #FBFBFB;
+  height: 70px;
+  margin-bottom: 10px;
+  position: relative;
+  border: 1px solid red;
+}
+.main-shop .shopping-cart-list table .shopping-cart .img-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.main-shop .shopping-cart-list table .shopping-cart .img-title img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-shop .shopping-cart-list table .shopping-cart .img-title .title-id h3 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3D3D3D;
+  margin: 0;
+}
+.main-shop .shopping-cart-list table .shopping-cart .img-title .title-id p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #A5A5A5;
+  margin: 0;
+}
+.main-shop .shopping-cart-list table .shopping-cart .item-price {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #727272;
+}
+.main-shop .shopping-cart-list table .shopping-cart #cart-quantity h1 {
+  font-size: 16px;
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 10px;
+  color: #3D3D3D;
+}
+.main-shop .shopping-cart-list table .shopping-cart #cart-quantity span {
+  background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+  border-radius: 29px;
+  height: 25px;
+  color: #FFFFFF;
+  padding: 7px 5px 7px 5px;
+}
+.main-shop .shopping-cart-list table .shopping-cart #total p {
+  display: inline-block;
+  padding-right: 54.2px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #46A358;
+}
+.main-shop .shopping-cart-list table .shopping-cart #total .fa-trash {
+  background: #727272;
+}
+.main-shop .shopping-cart-list .shopping-price {
+  width: calc(100% - 782px - 86px);
+}
+.main-shop .shopping-cart-list .shopping-price h3 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  color: #3D3D3D;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+  padding-bottom: 11px;
+}
+.main-shop .shopping-cart-list .shopping-price .coupon-code .coupon-code-title {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.main-shop .shopping-cart-list .shopping-price .coupon-code .coupon-code-input {
+  display: flex;
+  border: 1px solid #46A358;
+  border-radius: 3px;
+  height: 40px;
+  width: 100%;
+}
+.main-shop .shopping-cart-list .shopping-price .coupon-code .coupon-code-input input {
+  border: none;
+  outline: none;
+  padding-left: 9px;
+  padding-top: 13px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #A5A5A5;
+  padding-bottom: 12px;
+}
+.main-shop .shopping-cart-list .shopping-price .coupon-code .coupon-code-input #coupon-code {
+  width: 100%;
+}
+.main-shop .shopping-cart-list .shopping-price .coupon-code .coupon-code-input #coupon-code-submit {
+  background: #46A358;
+  padding: 12px 25px 12px 35px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #total-price h2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: right;
+  color: #3D3D3D;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #total-price p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #total-price h4 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #total-price:first-child {
+  padding-top: 30px;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #calc-price {
+  display: flex;
+  padding-top: 26px;
+  padding-bottom: 29px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #calc-price p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate #calc-price h2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: right;
+  color: #46A358;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate .checkout {
+  background: #46A358;
+  border-radius: 3px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #FFFFFF;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #46A358;
+  transition: all 0.4s linear;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  padding: 12px;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate .checkout:hover {
+  background: transparent;
+  color: #46A358;
+}
+.main-shop .shopping-cart-list .shopping-price .shopping-price-calculate .continue-shopping {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #46A358;
+  text-align: center;
+  padding-top: 14px;
+}
+.main-shop .shopping-cart-list .res_shopping-price {
+  display: none;
+}
+.main-shop .carousel-info {
+  padding-top: 85px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  color: #46A358;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+  padding-bottom: 12px;
+}
+.main-shop .main-shop-carousel {
+  margin-top: 44px;
+  margin-bottom: 130px;
+  gap: 26px;
+}
+.main-shop .main-shop-carousel .carousel-card {
+  width: 220px;
+}
+.main-shop .main-shop-carousel .carousel-card img {
+  width: 220px;
+  height: 250px;
+  background: #FBFBFB;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-shop .main-shop-carousel .carousel-card h2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3D3D3D;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+.main-shop .main-shop-carousel .carousel-card p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #46A358;
+}
+
+.nothingFound {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.slick-dots li button:before {
+  color: #46A358;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #46A358;
+}
+
+@media (min-width: 1500px) and (max-width: 1530px) {
+  .main-shop .shopping-cart-list {
+    gap: 50px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 782px - 50px);
+  }
+  .main-shop .main-shop-carousel {
+    gap: 20px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 210px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 210px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1330px) {
+  .main-shop .shopping-cart-list {
+    gap: 50px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 782px - 40px);
+  }
+  .main-shop .main-shop-carousel {
+    gap: 20px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 210px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 210px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (min-width: 1250px) and (max-width: 1279px) {
+  .main-shop .shopping-cart-list {
+    gap: 15px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 782px - 15px);
+  }
+  .main-shop .main-shop-carousel {
+    gap: 20px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 205px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 205px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1249px) {
+  .main-shop .shopping-cart-list {
+    gap: 15px;
+  }
+  .main-shop .shopping-cart-list table {
+    width: 750px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 720px - 15px) !important;
+  }
+  .main-shop .main-shop-carousel {
+    gap: 10px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 200px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 190px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (max-width: 1199px) {
+  .main-shop .shopping-cart-list {
+    gap: 10px;
+  }
+  .main-shop .shopping-cart-list table {
+    width: 680px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 680px - 10px) !important;
+  }
+  .main-shop .main-shop-carousel {
+    gap: 10px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 190px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 180px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (max-width: 1199px) {
+  .main-shop .shopping-cart-list {
+    gap: 10px;
+  }
+  .main-shop .shopping-cart-list table {
+    width: 680px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 680px - 10px) !important;
+  }
+  .main-shop .main-shop-carousel {
+    gap: 10px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 190px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 180px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (max-width: 1099px) {
+  .main-shop .shopping-cart-list {
+    gap: 10px;
+  }
+  .main-shop .shopping-cart-list table {
+    width: 640px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 640px - 10px) !important;
+  }
+  .main-shop .main-shop-carousel {
+    gap: 10px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 170px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 170px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 200px;
+  }
+}
+@media (max-width: 1000px) {
+  .main-shop .shopping-cart-list {
+    gap: 10px;
+  }
+  .main-shop .shopping-cart-list table {
+    width: 580px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 580px - 10px) !important;
+  }
+  .main-shop .main-shop-carousel {
+    gap: 20px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 195px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 195px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 230px;
+  }
+}
+@media (max-width: 950px) {
+  .main-shop .shopping-cart-list table {
+    width: 530px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    width: calc(100% - 530px - 10px) !important;
+  }
+}
+@media (max-width: 900px) {
+  .main-shop .shopping-cart-list {
+    gap: 10px;
+    display: block;
+  }
+  .main-shop .shopping-cart-list table {
+    width: 100%;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    padding-top: 50px;
+    width: 300px !important;
+  }
+  .main-shop .main-shop-carousel {
+    gap: 20px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 180px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 210px;
+  }
+}
+@media (max-width: 800px) {
+  .main-shop .main-shop-carousel {
+    gap: 20px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 220px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 230px;
+  }
+}
+@media (max-width: 750px) {
+  .main-shop .main-shop-carousel {
+    gap: 20px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 205px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 225px;
+  }
+}
+@media (max-width: 700px) {
+  .main-shop .main-shop-carousel {
+    gap: 10px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 193px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 225px;
+  }
+}
+@media (max-width: 650px) {
+  .main-shop .main-shop-carousel {
+    gap: 10px !important;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: auto;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 180px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 210px;
+  }
+  *[id]:nth-child(even) {
+    margin-top: 0;
+  }
+}
+@media (max-width: 600px) {
+  .main-shop .main-shop-carousel {
+    gap: 10px !important;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 170px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 165px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 200px;
+  }
+}
+@media (max-width: 550px) {
+  .main-shop .shopping-cart .img-title {
+    gap: 10px !important;
+  }
+  .main-shop .shopping-cart .img-title img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id h3 {
+    font-size: 12px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id p {
+    font-size: 10px !important;
+  }
+  .main-shop .shopping-cart #cart-quantity h1 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  .main-shop .shopping-cart #total {
+    padding-top: 10px;
+  }
+  .main-shop .shopping-cart #total p {
+    padding-right: 10px !important;
+  }
+  .main-shop .main-shop-carousel {
+    overflow-x: hidden;
+    gap: 10px;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 200px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 210px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 220px;
+  }
+}
+@media (max-width: 500px) {
+  .main-shop table {
+    display: none;
+  }
+  .main-shop .res-shopping-shop-page {
+    display: block !important;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(93.11deg, #FFFFFF -0.94%, #FFFFFF 105.02%);
+    box-shadow: 0px 6px 20px rgba(210, 210, 210, 0.25);
+    border-radius: 14px;
+    padding: 0 30px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price {
+    display: flex;
+    align-items: center;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info h3 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info p {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #727272;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info span {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity span {
+    background: #F7F7F7;
+    border-radius: 29px;
+    color: #A5A5A5;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity h1 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    color: #3D3D3D;
+    margin-bottom: 0;
+  }
+  .main-shop .shopping-price {
+    display: none;
+  }
+  .main-shop .res_shopping-price {
+    display: block !important;
+    position: fixed;
+    z-index: 100000000000000000000;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(205, 205, 205, 0.3);
+    border-radius: 40px 40px 0px 0px;
+    height: 365px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    padding: 33px 28px 32px 28px;
+    transition: all 1s linear;
+  }
+  .main-shop .res_shopping-price .coupon-code-input {
+    background: linear-gradient(93.11deg, #FFFFFF -0.94%, #FFFFFF 105.02%);
+    box-shadow: 0px 6px 20px rgba(210, 210, 210, 0.25);
+    border-radius: 40px;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .main-shop .res_shopping-price .coupon-code-input input {
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code {
+    border-radius: 40px 0 0 40px;
+    padding-left: 18px;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code ::-moz-placeholder {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #A5A5A5;
+    display: none;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code ::placeholder {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #A5A5A5;
+    display: none;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code-submit {
+    background: linear-gradient(93.11deg, rgba(70, 163, 88, 0.54) -0.94%, #46A358 105.02%);
+    border-radius: 40px;
+    padding: 17px 27px 17px 27px;
+    position: absolute;
+    right: 0;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price p {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price h2 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price h4 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price h2 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: right;
+    color: #46A358;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price p {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate .checkout {
+    background: linear-gradient(93.21deg, #46A358 -3.96%, rgba(70, 163, 88, 0.8) 121.97%);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 60px;
+    transition: all 1s linear !important;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate .checkout:hover {
+    background: transparent;
+    color: #46A358;
+    border: 1px solid #46A358;
+  }
+  .main-shop .show_price {
+    transform: translateY(0);
+  }
+  .main-shop .exit_price {
+    transform: translateY(120vw);
+  }
+  .main-shop .carousel-info {
+    padding-top: 30px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    margin: auto;
+  }
+  .main-shop .shopping-cart .img-title {
+    gap: 10px !important;
+  }
+  .main-shop .shopping-cart .img-title img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id {
+    display: none;
+  }
+  .main-shop .shopping-cart .img-title .title-id h3 {
+    font-size: 12px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id p {
+    font-size: 10px !important;
+  }
+  .main-shop .shopping-cart #cart-quantity h1 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  .main-shop .shopping-cart #total {
+    padding-top: 10px;
+  }
+  .main-shop .shopping-cart #total p {
+    padding-right: 10px !important;
+  }
+  .main-shop .main-shop-carousel {
+    overflow: hidden;
+    gap: 10px;
+    margin-bottom: 30px !important;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 180px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 175px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .main-shop .carousel-info {
+    padding-top: 30px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    margin: auto;
+    width: 250px !important;
+  }
+  .main-shop .shopping-cart .img-title {
+    gap: 10px !important;
+  }
+  .main-shop .shopping-cart .img-title img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id {
+    display: none;
+  }
+  .main-shop .shopping-cart .img-title .title-id h3 {
+    font-size: 12px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id p {
+    font-size: 10px !important;
+  }
+  .main-shop .shopping-cart #cart-quantity h1 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  .main-shop .shopping-cart #total {
+    padding-top: 10px;
+  }
+  .main-shop .shopping-cart #total p {
+    padding-right: 10px !important;
+  }
+  .main-shop .main-shop-carousel {
+    overflow: hidden;
+    gap: 10px;
+    margin-bottom: 30px !important;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 140px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 150px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 170px;
+  }
+  .main-shop .main-shop-carousel .carousel-card h2 {
+    font-size: 13px;
+    padding-bottom: 0;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart {
+    padding: 0 20px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price img {
+    width: 90px;
+    height: 90px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info h3 {
+    font-size: 13px;
+    line-height: 10px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info p {
+    font-size: 12px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info span {
+    font-size: 18px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity {
+    display: flex;
+    align-items: center;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity span {
+    background: #F7F7F7;
+    border-radius: 29px;
+    color: #A5A5A5;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity h1 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    color: #3D3D3D;
+    margin: 0;
+  }
+  .main-shop .res_shopping-price {
+    display: block !important;
+    position: fixed;
+    z-index: 100000000000000000000;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(205, 205, 205, 0.3);
+    border-radius: 40px 40px 0px 0px;
+    height: 365px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    padding: 33px 28px 32px 28px;
+    transition: all 1s linear;
+  }
+  .main-shop .res_shopping-price .coupon-code-input {
+    background: linear-gradient(93.11deg, #FFFFFF -0.94%, #FFFFFF 105.02%);
+    box-shadow: 0px 6px 20px rgba(210, 210, 210, 0.25);
+    border-radius: 40px;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .main-shop .res_shopping-price .coupon-code-input input {
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code {
+    border-radius: 40px 0 0 40px;
+    padding-left: 18px;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code ::-moz-placeholder {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 15px;
+    color: red;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code ::placeholder {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 15px;
+    color: red;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code-submit {
+    background: linear-gradient(93.11deg, rgba(70, 163, 88, 0.54) -0.94%, #46A358 105.02%);
+    border-radius: 40px;
+    padding: 17px 20px 17px 20px;
+    position: absolute;
+    right: 0;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price p {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price h2 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price h4 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price h2 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: right;
+    color: #46A358;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price p {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate .checkout {
+    background: linear-gradient(93.21deg, #46A358 -3.96%, rgba(70, 163, 88, 0.8) 121.97%);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 60px;
+    transition: all 1s linear !important;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate .checkout:hover {
+    background: transparent;
+    color: #46A358;
+    border: 1px solid #46A358;
+  }
+}
+@media (max-width: 350px) {
+  .main-shop .carousel-info {
+    padding-top: 30px;
+  }
+  .main-shop .shopping-cart-list .shopping-price {
+    margin: auto;
+    width: 250px !important;
+  }
+  .main-shop .shopping-cart .img-title {
+    gap: 10px !important;
+  }
+  .main-shop .shopping-cart .img-title img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id {
+    display: none;
+  }
+  .main-shop .shopping-cart .img-title .title-id h3 {
+    font-size: 12px !important;
+  }
+  .main-shop .shopping-cart .img-title .title-id p {
+    font-size: 10px !important;
+  }
+  .main-shop .shopping-cart #cart-quantity h1 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  .main-shop .shopping-cart #total {
+    padding-top: 10px;
+  }
+  .main-shop .shopping-cart #total p {
+    padding-right: 10px !important;
+  }
+  .main-shop .main-shop-carousel {
+    overflow: hidden;
+    gap: 10px;
+    margin-bottom: 30px !important;
+  }
+  .main-shop .main-shop-carousel .carousel-card {
+    width: 140px;
+  }
+  .main-shop .main-shop-carousel .carousel-card img {
+    width: 120px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 150px;
+  }
+  .main-shop .main-shop-carousel .carousel-card h2 {
+    font-size: 13px;
+    padding-bottom: 0;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart {
+    padding: 0;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price img {
+    width: 70px;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info h3 {
+    font-size: 13px;
+    line-height: 10px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info p {
+    font-size: 12px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .item-img-title-price .item-img-title-price-info span {
+    font-size: 18px;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity {
+    display: flex;
+    align-items: center;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity span {
+    background: #F7F7F7;
+    border-radius: 29px;
+    color: #A5A5A5;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .main-shop .res-shopping-shop-page .res-shopping_cart .shopping-cart-cartQuantity h1 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    color: #3D3D3D;
+    margin: 0;
+  }
+  .main-shop .res_shopping-price {
+    display: block !important;
+    position: fixed;
+    z-index: 100000000000000000000;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(205, 205, 205, 0.3);
+    border-radius: 40px 40px 0px 0px;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    padding: 20px 20px 20px 20px;
+    transition: all 1s linear;
+  }
+  .main-shop .res_shopping-price .coupon-code-input {
+    background: linear-gradient(93.11deg, #FFFFFF -0.94%, #FFFFFF 105.02%);
+    box-shadow: 0px 6px 20px rgba(210, 210, 210, 0.25);
+    border-radius: 40px;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .main-shop .res_shopping-price .coupon-code-input input {
+    height: 100%;
+    border: none;
+    outline: none;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code {
+    border-radius: 40px 0 0 40px;
+    padding-left: 18px;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code ::-moz-placeholder {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 15px;
+    color: red;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code ::placeholder {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 15px;
+    color: red;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code::-moz-placeholder {
+    visibility: hidden;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code::placeholder {
+    visibility: hidden;
+  }
+  .main-shop .res_shopping-price .coupon-code-input #coupon-code-submit {
+    background: linear-gradient(93.11deg, rgba(70, 163, 88, 0.54) -0.94%, #46A358 105.02%);
+    border-radius: 40px;
+    padding: 17px 20px 17px 20px;
+    position: absolute;
+    right: 0;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price p {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price h2 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #total-price h4 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price h2 {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: right;
+    color: #46A358;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate #calc-price p {
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate .checkout {
+    background: linear-gradient(93.21deg, #46A358 -3.96%, rgba(70, 163, 88, 0.8) 121.97%);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 50px;
+    transition: all 1s linear !important;
+  }
+  .main-shop .res_shopping-price .res_shopping-price-calculate .checkout:hover {
+    background: transparent;
+    color: #46A358;
+    border: 1px solid #46A358;
+  }
+}/*# sourceMappingURL=Shop.css.map */

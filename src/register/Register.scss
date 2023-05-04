@@ -1,0 +1,313 @@
+.register_page{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #E5E5E5;
+  z-index: 9999999999999999999999999999999;
+  .sub-register{
+    padding: 50px;
+    width: 500px;
+    position: relative;
+    height: 656px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    i{
+      position: absolute;
+      top: 14px;
+      right: 15px;
+      cursor: pointer;
+    }
+    .title{
+      display: flex;
+      justify-content: center;
+      .register{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 16px;
+        color: #3D3D3D;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .register:first-child{
+        border-right: 1px solid #3D3D3D;
+        padding-right: 12px; 
+      }
+      .register:last-child {
+        padding-left: 12px;
+        color: #46A358; 
+      }
+    }
+    .register_info{
+      margin-top: 40px;
+      margin-bottom: 14px;
+      height: 16px;
+      p{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #3D3D3D;
+      }
+    }
+    .register_inputs{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding-bottom: 41px;
+      input{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 14px;
+      }
+    }
+    .register-btn{
+      width: 100%;
+      height: 45px;
+      background: #46A358;
+      border-radius: 5px;
+      border: 1px solid #46A358;
+      font-family: 'Cera Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 16px;
+      color: #FFFFFF;
+      transition: all 0.5s linear;
+      margin-bottom: 36px;
+    }
+    .register-btn:hover{
+      background: #FFFFFF;
+      color: #46A358;
+    }
+    .register-with{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      height: 16px;
+      .straight_line{
+        width: calc((100% - 96px - 12px)/2);
+        height: 1px;
+        background: #EAEAEA;
+      }
+      p{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #3D3D3D;
+        width: 96px;
+        text-align: center;
+        padding-top: 15px;
+      }
+    }
+    .google-facebook{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 27px;
+      .google{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center !important;
+        border: 1px solid #EAEAEA;
+        border-radius: 5px;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+        p{
+          font-family: 'Cera Pro';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 16px;
+          text-align: center;
+          color: #727272;
+          padding-top: 14px;
+        }
+      }
+      .facebook{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        gap: 8.8px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #EAEAEA;
+        border-radius: 5px;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+        p{
+          font-family: 'Cera Pro';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 16px;
+          text-align: center;
+          color: #727272;
+          padding-top: 14px;
+        }
+      }
+    }
+    .green-line{
+      width: 100%;
+      height: 10px;
+      background: #46A358;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+.exit{
+  display: none !important;
+}
+.block{
+  display: block !important;
+}
+@media (max-width: 800px) {
+  .register_page{
+    .sub-register{
+      height: 500px;
+      padding: 30px;
+      .register_info{
+        margin-top: 10px;
+      }
+      .register_inputs{
+        padding-bottom: 20px;
+        input{
+          height: 30px;
+        }
+      }
+      .register-btn{
+        height: 40px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .register_page{
+    .sub-register{
+      height: 400px;
+      width: 400px;
+      padding: 30px;
+      .register_info{
+        margin-top: 10px;
+      }
+      .register_inputs{
+        padding-bottom: 20px;
+        gap: 10px;
+        input{
+          height: 30px;
+        }
+        input:last-child{
+          display: none;
+        }
+      }
+      .register-btn{
+        height: 40px;
+        margin-bottom: 10px;
+      }
+      .google-facebook{
+        margin-top: 10px;
+        .google{
+          height: 30px;
+        }
+        .facebook{
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .register_page{
+    padding: 20px;
+    .sub-register{
+      height: 400px;
+      width: 100%;
+      padding: 20px;
+      .register_info{
+        margin-top: 10px;
+      }
+      .register_inputs{
+        padding-bottom: 20px;
+        gap: 10px;
+        input{
+          height: 30px;
+        }
+        input:last-child{
+          display: none;
+        }
+      }
+      .register-btn{
+        height: 40px;
+        margin-bottom: 10px;
+      }
+      .google-facebook{
+        margin-top: 10px;
+        .google{
+          height: 30px;
+        }
+        .facebook{
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 350px) {
+  .register_page{
+    padding: 20px;
+    .sub-register{
+      height: 400px;
+      width: 100%;
+      padding: 20px;
+      .register_info p{
+        margin-top: 10px;
+        font-size: 11px;
+      }
+      .register_inputs{
+        padding-bottom: 20px;
+        gap: 10px;
+        input{
+          height: 30px;
+        }
+        input:last-child{
+          display: none;
+        }
+      }
+      .register-btn{
+        height: 40px;
+        margin-bottom: 10px;
+      }
+      .google-facebook{
+        margin-top: 10px;
+        .google{
+          height: 30px;
+        }
+        .facebook{
+          height: 30px;
+        }
+      }
+    }
+  }
+}

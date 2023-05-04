@@ -1,0 +1,1992 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer{
+  .footer-up{
+    background: #FBFBFB;
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 23px;
+    .cards{
+      display: flex;
+      background: #FBFBFB;
+      .card{
+        background: #FBFBFB;
+        border-right:1px solid rgba(70, 163, 88, 0.1);
+        padding-left: 23px;
+        padding-right: 26px;
+        .card-img{
+          position: relative;
+          margin-left: 15px;
+          }
+        .img-bg{
+          width: 74px;
+          height: 74px;
+          border-radius: 50%;
+          background: rgba(70, 163, 88, 0.13);
+          position: absolute;
+          top: 20px;
+          left: -15px;
+        }
+        h3{
+          font-family: 'Cera Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 16px;
+          color: #3D3D3D;
+          padding-top: 15px;
+          flex-grow: 1;
+        }
+        p{
+          font-family: 'Cera Pro';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          color: #727272;
+          padding-top: 9px;
+        }
+      }
+      .card:nth-child(2){
+        .card-img{
+          img{
+            padding-top: 7px;
+          }
+        }
+      }
+      .card:nth-child(3){
+        .card-img{
+          img{
+            padding-top: 7px;
+          }
+        }
+      }
+      .card:last-child{
+        border-right: none;
+        padding-right: 62px;
+      }
+    }
+    .email{
+      margin-right: 25px;
+      width: 354px;
+      margin-top: 20px;
+      h2{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 16px;
+        color: #3D3D3D;
+        padding-bottom: 18px;
+      }
+      form{
+        width: 100%;
+        margin-bottom: 17px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        input{
+          height: 100%;
+          width: 269px;
+          background: #FFFFFF;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+          border-radius: 6px 0 0 6px;
+          border: none;
+          padding-left: 11px;
+          outline: none;
+          ::placeholder{
+            font-family: 'Cera Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: #ACACAC;
+          }
+        }
+        button{
+          height: 100%; 
+          background: #46A358;
+          border-radius: 0px 6px 6px 0px;
+          border: 1px solid #46A358;
+          padding: 6px 25px;
+          font-family: 'Cera Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          color: #FFFFFF;
+          transition: all 0.3s linear;
+        }
+        button:hover{
+          background: #ffffff;
+          color: #46A358;
+          border: 1px solid #46A358;
+        }
+      }
+      p{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 22px;
+        color: #727272;
+      }
+    }
+  }
+  .footer-middle{
+    display: flex;
+    align-items: center;
+    background: rgba(70, 163, 88, 0.1);
+    height: 88px;
+    padding-left: 25px;
+    padding-right: 25px;
+    .logo{
+      padding-right: 90px;
+    }
+    .location{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-right: 62px;
+      i{
+        color: #46A358;
+      }
+      p{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 0;
+        width: 176px;
+        color: #3D3D3D;
+      }
+    }
+    .contact-email{
+      display: flex;
+      align-items:center;
+      gap: 12px;
+      padding-right: 74px;
+      i{
+        color: #46A358;
+      }
+      p{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 0;
+        color: #3D3D3D;
+      }
+    }
+    .contact-number{
+      display: flex;
+      align-items:center;
+      gap: 12px;
+      i{
+        color: #46A358;
+      }
+      p{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 22px;
+        color: #3D3D3D;
+      }
+    }
+  }
+  .footer-down{
+    display: flex;
+    padding: 32px 25px 25px 25px;
+    background: #FBFBFB;
+
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+    .account-links{
+      display: flex;
+      flex-direction: column;
+      padding-right: 166px;
+      h2{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 16px;
+        padding-bottom: 8px;
+        color: #3D3D3D;
+      }
+      a{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #3D3D3D;
+        text-decoration: none;
+      }
+    }
+    .help-links{
+      display: flex;
+      flex-direction: column;
+      padding-right: 154px;
+      h2{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 16px;
+        padding-bottom: 8px;
+        color: #3D3D3D;
+      }
+      a{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #3D3D3D;
+        text-decoration: none;
+      }
+    }
+    .categories-links{
+      display: flex;
+      flex-direction: column;
+      padding-right: 173px;
+      h2{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 16px;
+        padding-bottom: 8px;
+        color: #3D3D3D;
+      }
+      a{
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #3D3D3D;
+        text-decoration: none;
+      }
+    }
+    .social-media-payment{
+      .social-media{
+        h2{
+          font-family: 'Cera Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 16px;
+          color: #3D3D3D;
+          padding-bottom: 20px;
+        }
+        .social-links{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          i{
+            color: rgba(70, 163, 88, 0.6);
+            border: 1px solid rgba(70, 163, 88, 0.2);
+            border-radius: 4px; 
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s linear;
+          }
+          i:hover{
+            background: rgba(70, 163, 88, 0.6);
+            color: #ffffff;
+          }
+        }
+      }
+      .payment{
+        margin-top: 33px;
+        h2{
+          font-family: 'Cera Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 16px;
+          color: #3D3D3D;
+          padding-bottom: 13px;
+        }
+      }
+    }
+  }
+  .rights{
+    p{
+      font-family: 'Cera Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+      color: #3D3D3D;
+      padding-top: 7px;
+      padding-bottom: 13px;
+    }
+  }
+}
+@media(max-width: 1200px) {
+  .footer{
+    .footer-up{
+      .cards{
+        .card{
+          padding-left: 20px;
+          padding-right: 15px;
+        }
+        .card:last-child{
+          padding-right: 50px;
+        }
+      }
+      .email{
+        width: 320px;
+      }
+    }
+    .footer-middle{
+      .logo{
+        padding-right: 70px;
+      }
+      .location{
+        padding-right: 50px;
+      }
+      .contact-email{
+        padding-right: 60px;
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 120px;
+      }
+      .help-links{
+        padding-right: 120px;
+      }
+      .categories-links{
+        padding-right: 120px;
+      }
+    }
+  }
+}
+@media(max-width: 1100px) {
+  .footer{
+    .footer-up{
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        width: 300px;
+      }
+    }
+    .footer-middle{
+      .logo{
+        padding-right: 50px;
+      }
+      .location{
+        padding-right: 30px;
+      }
+      .contact-email{
+        padding-right: 40px;
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 110px;
+      }
+      .help-links{
+        padding-right: 110px;
+      }
+      .categories-links{
+        padding-right: 110px;
+      }
+    }
+  }
+}
+@media(max-width: 1050px) {
+  .footer{
+    .footer-up{
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          h3{
+            font-size: 15px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        width: 280px;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+    .footer-middle{
+      .logo{
+        padding-right: 40px;
+      }
+      .location{
+        padding-right: 30px;
+      }
+      .contact-email{
+        padding-right: 30px;
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 100px;
+      }
+      .help-links{
+        padding-right: 100px;
+      }
+      .categories-links{
+        padding-right: 100px;
+      }
+    }
+  }
+}
+@media(max-width: 950px) {
+  .footer{
+    .footer-up{
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          h3{
+            font-size: 15px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        width: 280px;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+    .footer-middle{
+      .logo{
+        padding-right: 40px;
+        img{
+          width: 120px;
+        }
+      }
+      .location{
+        padding-right: 30px;
+      }
+      .contact-email{
+        padding-right: 30px;
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 70px;
+        // h2{
+        //   font-size: 1px;
+        // }
+        // a{
+        //   font-size: 12px;
+        //   line-height: 18px;
+        // }
+      }
+      .help-links{
+        padding-right: 80px;
+      }
+      .categories-links{
+        padding-right: 80px;
+      }
+    }
+  }
+}
+@media(max-width: 900px) {
+  .footer{
+    .footer-up{
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 60px;
+              height: 80px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 60px;
+            height: 60px;
+          }
+          h3{
+            font-size: 13px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        width: 280px;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+    .footer-middle{
+      .logo{
+        padding-right: 40px;
+        img{
+          width: 120px;
+        }
+      }
+      .location{
+        padding-right: 30px;
+        gap: 5px;
+        p{
+          font-size: 13px;
+          line-height: 18px;
+          width: 140px;
+        }
+      }
+      .contact-email{
+        padding-right: 30px;
+        gap: 5px;
+        p{
+          font-size: 13px;
+        }
+      }
+      .contact-number{
+        gap: 5px;
+        p{
+          font-size: 13px;
+        }
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 70px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .help-links{
+        padding-right: 80px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .categories-links{
+        padding-right: 80px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .social-media-payment{
+        .social-media{
+          h2{
+            font-size: 15px;
+            padding-bottom: 10px;
+          }
+        }
+        .payment{
+          h2{
+            font-size: 15px;
+          }
+          img{
+            width: 210px;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 800px) {
+  .footer{
+    .footer-up{
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 60px;
+              height: 80px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 60px;
+            height: 60px;
+          }
+          h3{
+            font-size: 13px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        width: 250px;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+    .footer-middle{
+      .logo{
+        padding-right: 30px;
+        img{
+          width: 100px;
+        }
+      }
+      .location{
+        padding-right: 30px;
+        gap: 5px;
+        p{
+          font-size: 13px;
+          line-height: 18px;
+          width: 140px;
+        }
+      }
+      .contact-email{
+        padding-right: 30px;
+        gap: 5px;
+        p{
+          font-size: 13px;
+        }
+      }
+      .contact-number{
+        gap: 5px;
+        p{
+          font-size: 13px;
+        }
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 50px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .help-links{
+        padding-right: 50px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .categories-links{
+        padding-right: 50px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .social-media-payment{
+        .social-media{
+          h2{
+            font-size: 15px;
+            padding-bottom: 10px;
+          }
+        }
+        .payment{
+          h2{
+            font-size: 15px;
+          }
+          img{
+            width: 210px;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 750px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 60px;
+              height: 80px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 60px;
+            height: 60px;
+          }
+          h3{
+            font-size: 13px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        // display: flex;
+        margin: auto;
+        width: auto;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 500px;
+        }
+      }
+    }
+    .footer-middle{
+      padding-left: 15px;
+      padding-right: 15px;
+      .logo{
+        padding-right: 15px;
+        img{
+          width: 100px;
+        }
+      }
+      .location{
+        padding-right: 15px;
+        gap: 5px;
+        p{
+          font-size: 12px;
+          line-height: 18px;
+          width: 140px;
+        }
+      }
+      .contact-email{
+        padding-right: 15px;
+        gap: 5px;
+        p{
+          font-size: 12px;
+        }
+      }
+      .contact-number{
+        gap: 5px;
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 40px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .help-links{
+        padding-right: 40px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .categories-links{
+        padding-right: 40px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .social-media-payment{
+        .social-media{
+          h2{
+            font-size: 15px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 180px;
+          }
+        }
+        .payment{
+          h2{
+            font-size: 15px;
+          }
+          img{
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 700px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 60px;
+              height: 80px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 60px;
+            height: 60px;
+          }
+          h3{
+            font-size: 13px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        // display: flex;
+        margin: auto;
+        width: auto;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 500px;
+        }
+      }
+    }
+    .footer-middle{
+      padding-left: 15px;
+      padding-right: 15px;
+      .logo{
+        padding-right: 15px;
+        img{
+          width: 100px;
+        }
+      }
+      .location{
+        padding-right: 15px;
+        gap: 5px;
+        p{
+          font-size: 12px;
+          line-height: 18px;
+          width: 140px;
+        }
+      }
+      .contact-email{
+        padding-right: 15px;
+        gap: 5px;
+        p{
+          font-size: 12px;
+        }
+      }
+      .contact-number{
+        gap: 5px;
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 35px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .help-links{
+        padding-right: 35px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .categories-links{
+        padding-right: 35px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .social-media-payment{
+        .social-media{
+          h2{
+            font-size: 15px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 180px;
+          }
+        }
+        .payment{
+          h2{
+            font-size: 15px;
+          }
+          img{
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 650px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 60px;
+              height: 80px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 60px;
+            height: 60px;
+          }
+          h3{
+            font-size: 13px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 500px;
+        }
+      }
+    }
+    .footer-middle{
+      padding-left: 15px;
+      padding-right: 15px;
+      .logo{
+        padding-right: 15px;
+        img{
+          width: 90px;
+        }
+      }
+      .location{
+        padding-right: 15px;
+        gap: 3px;
+        p{
+          font-size: 12px;
+          line-height: 18px;
+          width: 130px;
+        }
+      }
+      .contact-email{
+        padding-right: 15px;
+        gap: 3px;
+        p{
+          font-size: 12px;
+        }
+      }
+      .contact-number{
+        gap: 3px;
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 20px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .help-links{
+        padding-right: 25px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .categories-links{
+        padding-right: 25px;
+        h2{
+          font-size: 15px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .social-media-payment{
+        .social-media{
+          h2{
+            font-size: 15px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 180px;
+          }
+        }
+        .payment{
+          h2{
+            font-size: 15px;
+          }
+          img{
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 600px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 60px;
+              height: 80px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 60px;
+            height: 60px;
+          }
+          h3{
+            font-size: 13px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 400px;
+        }
+      }
+    }
+    .footer-middle{
+      padding-left: 15px;
+      padding-right: 15px;
+      flex-direction: column;gap: 20px;
+      margin: auto;
+      height: auto;
+      display: none;
+      .logo{
+        padding-right: 15px;
+        img{
+          width: 90px;
+        }
+      }
+      .location{
+        padding-right: 15px;
+        gap: 3px;
+        p{
+          font-size: 12px;
+          line-height: 18px;
+          width: 130px;
+        }
+      }
+      .contact-email{
+        padding-right: 15px;
+        gap: 3px;
+        p{
+          font-size: 12px;
+        }
+      }
+      .contact-number{
+        gap: 3px;
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+    .footer-down{
+      .account-links{
+        padding-right: 20px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .help-links{
+        padding-right: 25px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .categories-links{
+        padding-right: 25px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .social-media-payment{
+        .social-media{
+          h2{
+            font-size: 14px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 150px;
+            i{
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+        .payment{
+          h2{
+            font-size: 14px;
+          }
+          img{
+            width: 150px;
+          }
+        }
+      }
+    }
+    .rights{
+      padding-bottom: 80px;
+    }
+  }
+}
+@media(max-width: 550px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 60px;
+              height: 80px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 60px;
+            height: 60px;
+          }
+          h3{
+            font-size: 13px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 350px;
+        }
+      }
+    }
+    .footer-middle{
+      padding-left: 15px;
+      padding-right: 15px;
+      flex-direction: column;gap: 20px;
+      margin: auto;
+      height: auto;
+      display: none;
+      .logo{
+        padding-right: 15px;
+        img{
+          width: 90px;
+        }
+      }
+      .location{
+        padding-right: 15px;
+        gap: 3px;
+        p{
+          font-size: 12px;
+          line-height: 18px;
+          width: 130px;
+        }
+      }
+      .contact-email{
+        padding-right: 15px;
+        gap: 3px;
+        p{
+          font-size: 12px;
+        }
+      }
+      .contact-number{
+        gap: 3px;
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+    .footer-down{
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 0;
+      .account-links{
+        padding-right: 45px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .help-links{
+        padding-right: 45px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .categories-links{
+        padding-right: 0px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .social-media-payment{
+        display: flex;
+        padding-top: 15px;
+        gap: 15px;
+        justify-content: space-between;
+        flex-grow: 1;
+        .social-media{
+          text-align: center;
+          h2{
+            font-size: 14px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 165px;
+            display: flex;
+            flex-wrap: wrap;
+            i{
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+        .payment{
+          margin-top: 0;
+          text-align: center;
+          h2{
+            font-size: 14px;
+            margin-bottom: 5px;
+          }
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 450px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 50px;
+              height: 60px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 40px;
+            height: 40px;
+          }
+          h3{
+            font-size: 12px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 11px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 30px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 350px;
+        }
+      }
+    }
+    .footer-down{
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 0;
+      .account-links{
+        padding-right: 35px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .help-links{
+        padding-right: 35px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .categories-links{
+        padding-right: 0px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 12px;
+        }
+      }
+      .social-media-payment{
+        display: flex;
+        padding-top: 15px;
+        gap: 15px;
+        justify-content: space-between;
+        flex-grow: 1;
+        .social-media{
+          text-align: center;
+          h2{
+            font-size: 14px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 165px;
+            display: flex;
+            flex-wrap: wrap;
+            i{
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+        .payment{
+          margin-top: 0;
+          text-align: center;
+          h2{
+            font-size: 14px;
+            margin-bottom: 5px;
+          }
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 400px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          .card-img{
+            img{
+              width: 50px;
+              height: 60px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 40px;
+            height: 40px;
+          }
+          h3{
+            font-size: 12px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 11px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 10px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        width: 280px;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 12px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 6px 15px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 280px;
+        }
+      }
+    }
+    .footer-down{
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 0;
+      .account-links{
+        padding-right: 20px;
+        h2{
+          font-size: 13px;
+        }
+        a{
+          font-size: 11px;
+          line-height: 18px;
+        }
+      }
+      .help-links{
+        padding-right: 20px;
+        h2{
+          font-size: 13px;
+        }
+        a{
+          font-size: 11px;
+          line-height: 18px;
+        }
+      }
+      .categories-links{
+        padding-right: 0px;
+        h2{
+          font-size: 13px;
+        }
+        a{
+          font-size: 11px;
+          line-height: 18px;
+        }
+      }
+      .social-media-payment{
+        display: flex;
+        padding-top: 15px;
+        gap: 15px;
+        justify-content: space-between;
+        flex-grow: 1;
+        .social-media{
+          text-align: center;
+          h2{
+            font-size: 13px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 165px;
+            display: flex;
+            flex-wrap: wrap;
+            i{
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+        .payment{
+          margin-top: 0;
+          text-align: center;
+          h2{
+            font-size: 13px;
+            margin-bottom: 5px;
+          }
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 350px) {
+  .footer{
+    .footer-up{
+      display: block;
+      .cards{
+        display: flex;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        .card{
+          padding-left: 15px;
+          padding-right: 15px;
+          width: 120px;
+          .card-img{
+            img{
+              width: 50px;
+              height: 60px;
+              object-fit: contain;
+            }
+          }
+          .img-bg{
+            width: 40px;
+            height: 40px;
+          }
+          h3{
+            font-size: 12px;
+            flex-grow: 0;
+          }
+          p{
+            font-size: 11px;
+            line-height: 15px;
+            padding-top: 0;
+          }
+        }
+        .card:last-child{
+          padding-right: 10px;
+        }
+      }
+      .email{
+        padding-top: 20px;
+        text-align: center;
+        margin: auto;
+        width: 230px;
+        h2{
+          font-size: 16px;
+        }
+        form{
+          input{
+            padding-left: 5px;
+            ::placeholder{
+              font-size: 10px !important;
+              color: red;
+            }
+          }
+          button{
+            padding: 3px 10px;
+            font-size: 14px;
+          }
+        }
+        p{
+          margin: auto;
+          font-size: 12px;
+          line-height: 18px;
+          width: 230px;
+        }
+      }
+    }
+    .footer-down{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: wrap;
+      padding-top: 0;
+      justify-content: center;
+      .account-links{
+        padding-right: 20px;
+        padding-bottom: 10px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .help-links{
+        padding-right: 10px;
+        padding-bottom: 10px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .categories-links{
+        padding-right: 0px;
+        padding-bottom: 10px;
+        h2{
+          font-size: 14px;
+        }
+        a{
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+      .social-media-payment{
+        display: block;
+        padding-top: 15px;
+        gap: 15px;
+        justify-content: space-between;
+        flex-grow: 1;
+        .social-media{
+          text-align: center;
+          padding-bottom: 10px;
+          h2{
+            font-size: 13px;
+            padding-bottom: 10px;
+          }
+          .social-links{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            i{
+              width: 25px;
+              height: 25px;
+            }
+          }
+        }
+        .payment{
+          margin-top: 0;
+          text-align: center;
+          h2{
+            font-size: 13px;
+            margin-bottom: 5px;
+          }
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .rights{
+      p{
+        font-size: 12px;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+

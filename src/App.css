@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-component {
+  padding: 0 120px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.register-bg{
+  /* width: 100vw; */
+  /* height: 100; */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background: #E5E5E5;
+}
+@media(max-width: 1439px){
+  .main-component{
+    padding: 0 120px;
+  }
+}
+@media(max-width: 1399px){
+  .main-component{
+    padding: 0 100px;
+  }
+}
+@media(max-width: 1300px){
+  .main-component{
+    padding: 0 100px;
+  }
+}
+@media(max-width: 1200px){
+  .main-component{
+    padding: 0 80px;
+  }
+}
+@media(max-width: 1100px){
+  .main-component{
+    padding: 0 70px;
+  }
+}
+@media(max-width: 1050px){
+  .main-component{
+    padding: 0 50px;
+  }
+}
+@media(max-width: 1000px){
+  .main-component{
+    padding: 0 50px;
+  }
+}
+@media(max-width: 850px){
+  .main-component{
+    padding: 0 30px;
+  }
+}
+@media(max-width: 650px){
+  .main-component{
+    padding: 0 20px;
+  }
+}
+@media(min-width: 1441px){
+  .main-component{
+    padding: 0 150px;
+  }
+}
+@media(min-width: 1500px){
+  .main-component{
+    padding: 0 200px;
+  }
+}
+@media(min-width: 1600px){
+  .main-component{
+    padding: 0 250px;
+  }
+}
+@media(min-width: 1700px){
+  .main-component{
+    padding: 0 250px;
+  }
+}
+@media(min-width: 1800px){
+  .main-component{
+    padding: 0 300px;
+  }
+}
+@media (min-width: 1900px) {
+  .main-component{
+  padding: 0 350px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

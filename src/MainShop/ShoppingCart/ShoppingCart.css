@@ -1,0 +1,234 @@
+.shopping-cart-list {
+  display: flex;
+  gap: 86px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.shopping-cart-list table {
+  width: 782px;
+  border-collapse: separate;
+}
+.shopping-cart-list table .shopping-cart-header {
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+.shopping-cart-list table .shopping-cart-header th {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+  padding-bottom: 11px;
+}
+.shopping-cart-list table .shopping-cart {
+  background: #FBFBFB;
+  height: 70px;
+  margin-bottom: 10px;
+  position: relative;
+  border: 1px solid red;
+}
+.shopping-cart-list table .shopping-cart .img-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.shopping-cart-list table .shopping-cart .img-title img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.shopping-cart-list table .shopping-cart .img-title .title-id h3 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3D3D3D;
+  margin: 0;
+}
+.shopping-cart-list table .shopping-cart .img-title .title-id p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #A5A5A5;
+  margin: 0;
+}
+.shopping-cart-list table .shopping-cart .item-price {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #727272;
+}
+.shopping-cart-list table .shopping-cart #cart-quantity h1 {
+  font-size: 16px;
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 10px;
+  color: #3D3D3D;
+}
+.shopping-cart-list table .shopping-cart #cart-quantity span {
+  background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+  border-radius: 29px;
+  height: 25px;
+  color: #FFFFFF;
+  padding: 7px 5px 7px 5px;
+  cursor: pointer;
+}
+.shopping-cart-list table .shopping-cart #total p {
+  display: inline-block;
+  padding-right: 54.2px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #46A358;
+}
+.shopping-cart-list table .shopping-cart #total .fa-trash {
+  background: #727272;
+}
+.shopping-cart-list .shopping-price {
+  width: calc(100% - 782px - 86px);
+}
+.shopping-cart-list .shopping-price h3 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  color: #3D3D3D;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+  padding-bottom: 11px;
+}
+.shopping-cart-list .shopping-price .coupon-code .coupon-code-title {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.shopping-cart-list .shopping-price .coupon-code .coupon-code-input {
+  display: flex;
+  border: 1px solid #46A358;
+  border-radius: 3px;
+  height: 40px;
+  width: 100%;
+}
+.shopping-cart-list .shopping-price .coupon-code .coupon-code-input input {
+  border: none;
+  outline: none;
+  padding-left: 9px;
+  padding-top: 13px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #A5A5A5;
+  padding-bottom: 12px;
+}
+.shopping-cart-list .shopping-price .coupon-code .coupon-code-input #coupon-code {
+  width: 100%;
+}
+.shopping-cart-list .shopping-price .coupon-code .coupon-code-input #coupon-code-submit {
+  background: #46A358;
+  padding: 12px 25px 12px 35px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #total-price h2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: right;
+  color: #3D3D3D;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #total-price p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #total-price h4 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #total-price:first-child {
+  padding-top: 30px;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #calc-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #calc-price p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate #calc-price h2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: right;
+  color: #46A358;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate .checkout {
+  background: #46A358;
+  border-radius: 3px;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  color: #FFFFFF;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #46A358;
+  transition: all 0.4s linear;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate .checkout:hover {
+  background: transparent;
+  color: #46A358;
+}
+.shopping-cart-list .shopping-price .shopping-price-calculate .continue-shopping {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #46A358;
+  text-align: center;
+  padding-top: 14px;
+}/*# sourceMappingURL=ShoppingCart.css.map */

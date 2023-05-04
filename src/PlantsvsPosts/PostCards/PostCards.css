@@ -1,0 +1,188 @@
+.post {
+  height: auto;
+  background: #FBFBFB;
+}
+.post img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.post .post-info {
+  padding: 0 11px 13px 15px;
+}
+.post .post-info span {
+  display: block;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #46A358;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 4px;
+}
+.post .post-info .title {
+  height: 52px;
+}
+.post .post-info .title h2 {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 13px;
+  color: #3D3D3D;
+}
+.post .post-info p {
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #727272;
+}
+.post .post-info button {
+  background: transparent;
+  border: none;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3D3D3D;
+  transition: all 0.5s linear;
+}
+.post .post-info button i {
+  padding-left: 5px;
+}
+.post .post-info button:hover {
+  color: #46A358;
+}
+
+@media (max-width: 1200px) {
+  .post .post-info {
+    padding: 0 10px 10px 10px;
+  }
+  .post .post-info span {
+    font-size: 12px;
+  }
+  .post .post-info .title h2 {
+    font-size: 16px;
+  }
+  .post .post-info p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 900px) {
+  .post .post-info {
+    padding: 0 10px 10px 10px;
+  }
+  .post .post-info span {
+    font-size: 11px;
+  }
+  .post .post-info .title h2 {
+    font-size: 16px;
+  }
+  .post .post-info p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 800px) {
+  .post .post-info {
+    padding: 0 15px 15px 15px;
+  }
+  .post .post-info span {
+    font-size: 14px;
+  }
+  .post .post-info .title h2 {
+    font-size: 24px;
+  }
+  .post .post-info p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .post .post-info {
+    padding: 0 15px 15px 15px;
+  }
+  .post .post-info span {
+    font-size: 12px;
+  }
+  .post .post-info .title h2 {
+    font-size: 22px;
+  }
+  .post .post-info p {
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 18px;
+  }
+}
+@media (max-width: 550px) {
+  .post .post-info {
+    padding: 0 15px 15px 15px;
+  }
+  .post .post-info span {
+    font-size: 12px;
+  }
+  .post .post-info .title h2 {
+    font-size: 20px;
+  }
+  .post .post-info p {
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 18px;
+  }
+}
+@media (max-width: 500px) {
+  .post .post-info {
+    padding: 0 10px 10px 10px;
+  }
+  .post .post-info span {
+    font-size: 12px;
+  }
+  .post .post-info .title h2 {
+    font-size: 18px;
+  }
+  .post .post-info p {
+    font-size: 12px;
+    margin-top: 0;
+    line-height: 18px;
+  }
+}
+@media (max-width: 450px) {
+  .post .post-info {
+    padding: 0 10px 10px 10px;
+  }
+  .post .post-info span {
+    font-size: 11px;
+  }
+  .post .post-info .title h2 {
+    font-size: 16px;
+  }
+  .post .post-info p {
+    font-size: 11px;
+    margin-top: 0;
+    line-height: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .post .post-info {
+    padding: 0 10px 10px 10px;
+  }
+  .post .post-info span {
+    font-size: 14px;
+  }
+  .post .post-info .title h2 {
+    font-size: 22px;
+  }
+  .post .post-info p {
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 18px;
+  }
+}/*# sourceMappingURL=PostCards.css.map */

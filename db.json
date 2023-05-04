@@ -1,0 +1,326 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "img": "../../assets/img1.png",
+      "title": "Barberton Daisy",
+      "price": 119.00,
+      "discount": "",
+      "category": "new"
+    },
+    {
+      "id": 2,
+      "img": "../../assets/img2.png",
+      "title": "Angel Wing Begonia",
+      "price": 169.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 3,
+      "img": "../../assets/double-card12.png",
+      "title": "African Violet",
+      "price": 199.00,
+      "discount": "$229.00",
+      "category": "new"
+    },
+    {
+      "id": 4,
+      "img": "../../assets/img4.png",
+      "title": "Beach Spider Lily",
+      "price": 129.00,
+      "discount": "",
+      "category": "new"
+    },
+    {
+      "id": 5,
+      "img": "../../assets/img5.png",
+      "title": "Blushing Bromeliad",
+      "price": 139.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 6,
+      "img": "../../assets/img6.png",
+      "title": "Aluminum Plant",
+      "price": 179.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 7,
+      "img": "../../assets/img7.png",
+      "title": "Bird's Nest Fern",
+      "price": 99.00,
+      "discount": "",
+      "category": "new"
+    },
+    {
+      "id": 8,
+      "img": "../../assets/img8.png",
+      "title": "Broadleaf Lady Palm",
+      "price": 59.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 9,
+      "img": "../../assets/img9.png",
+      "title": "Chinese Evergreen",
+      "price": 39.00,
+      "discount": "",
+      "category": "new"
+    },
+    {
+      "id": 10,
+      "img": "../../assets/img10.png",
+      "title": "Chinese Evergreen",
+      "price": 69.00,
+      "discount": "$99.00",
+      "category": "sale"
+    },
+    {
+      "id": 11,
+      "img": "../../assets/img11.png",
+      "title": "Beach Spider Lily",
+      "price": 139.00,
+      "discount": "$160.00",
+      "category": "new"
+    },
+    {
+      "id": 12,
+      "img": "../../assets/img13.png",
+      "title": "American Sil",
+      "price": 107.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 13,
+      "img": "../../assets/img13.webp",
+      "title": "Blushing Bromeliad",
+      "price": 87.00,
+      "discount": "",
+      "category": "new"
+    },
+    {
+      "id": 14,
+      "img": "../../assets/img14.png",
+      "title": "Penelope",
+      "price": 45.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 15,
+      "img": "../../assets/img15.png",
+      "title": "Majesty",
+      "price": 49.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 16,
+      "img": "../../assets/img16.png",
+      "title": "Ageratum",
+      "price": 85.00,
+      "discount": "$100.00",
+      "category": "new"
+    },
+    {
+      "id": 17,
+      "img": "../../assets/img17.png",
+      "title": "Blue Fescue",
+      "price": 56.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 18,
+      "img": "../../assets/img18.png",
+      "title": "Bluestem",
+      "price": 78.00,
+      "discount": "$95.00",
+      "category": "new"
+    },
+    {
+      "id": 19,
+      "img": "../../assets/img19.png",
+      "title": "Bloody Cranesbill",
+      "price": 66.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 20,
+      "img": "../../assets/img20.png",
+      "title": "Crested Iris",
+      "price": 139.00,
+      "discount": "$150.00",
+      "category": "sale"
+    },
+    {
+      "id": 21,
+      "img": "../../assets/img21.png",
+      "title": "False Indigo",
+      "price": 125.00,
+      "discount": "",
+      "category": "new"
+    },
+    {
+      "id": 22,
+      "img": "../../assets/img22.png",
+      "title": "Doublefile Viburnum",
+      "price": 100.00,
+      "discount": "$129.00",
+      "category": "new"
+    },
+    {
+      "id": 23,
+      "img": "../../assets/img24.png",
+      "title": "Creeping Zinnia",
+      "price": 97.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 24,
+      "img": "../../assets/img24.png",
+      "title": "Aloe vera",
+      "price": 67.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 25,
+      "img": "../../assets/img25.png",
+      "title": "Broadleaf Lady Palm",
+      "price": 125.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 26,
+      "img": "../../assets/img26.png",
+      "title": "American little Palm",
+      "price": 95.00,
+      "discount": "$105.00",
+      "category": "sale"
+    },
+    {
+      "id": 27,
+      "img": "../../assets/img27.png",
+      "title": "African Aloe",
+      "price": 135.00,
+      "discount": "",
+      "category": "new"
+    },
+    {
+      "id": 28,
+      "img": "../../assets/img28.png",
+      "title": "Asian Forever Flower",
+      "price": 99.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 29,
+      "img": "../../assets/img29.png",
+      "title": "American Flower",
+      "price": 106.00,
+      "discount": "$135.00",
+      "category": "new"
+    },
+    {
+      "id": 30,
+      "img": "../../assets/img30.png",
+      "title": "False Indigo",
+      "price": 49.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 31,
+      "img": "../../assets/img1.png",
+      "title":"Aluminum Plant",
+      "price": 45.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 32,
+      "img": "../../assets/img32.png",
+      "title": "Broadleaf Lady Palm",
+      "price": 69.00,
+      "discount": "$78.00",
+      "category": "new"
+    },
+    {
+      "id": 33,
+      "img": "../../assets/img33.png",
+      "title": "Crested Iris",
+      "price": 99.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id": 34,
+      "img": "../../assets/img34.png",
+      "title": "American Sil",
+      "price": 59.00,
+      "discount":"",
+      "category": "sale"
+    },
+    {
+      "id": 35,
+      "img":"../../assets/img35.png",
+      "title": "Asian Forever Flower",
+      "price": 39.00,
+      "discount": "",
+      "category": "sale"
+    },
+    {
+      "id":36,
+      "img": "../../assets/img36.png",
+      "title": "Blushing Bromeliad",
+      "price": 135.00,
+      "discount":"",
+      "category": "new"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "img": "./assets/post1.png",
+      "postDate": "September 12  | Read in 6 minutes",
+      "title1":"Cactus & Succulent",
+      "title2": "Care Tips",
+      "info": "Cacti are succulents are easy care plants for any home or patio. "
+    },
+    {
+      "id": 2,
+      "img": "./assets/post2.png",
+      "postDate": "September 13  | Read in 2 minutes",
+      "title1":"Top 10 Succulents for",
+      "title2": "Your Home",
+      "info": "Best in hanging baskets. Prefers medium to high light."
+    },
+    {
+      "id": 3,
+      "img": "./assets/post3.png",
+      "postDate": "September 15  | Read in 3 minutes",
+      "title1":"Cactus & Succulent",
+      "title2": "Care Tips",
+      "info": "Cacti and succulents thrive in containers and because most are.."
+    },
+    {
+      "id": 4,
+      "img": "./assets/post4.png",
+      "postDate": "September 15  | Read in 2 minutes",
+      "title1":"Best Houseplants",
+      "title2": "Room By Room",
+      "info": "The benefits of houseplants are endless. In addition to.."
+    }
+  ]
+}

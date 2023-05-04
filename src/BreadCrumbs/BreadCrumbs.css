@@ -1,0 +1,15 @@
+.breadcrumbs * {
+  display: inline-block;
+}
+
+.breadcrumbs .crumb:after {
+  content: "/";
+}
+
+.breadcrumbs .crumb:last-child:after {
+  display: none;
+}
+
+.crumb {
+  color: red;
+}/*# sourceMappingURL=BreadCrumbs.css.map */
